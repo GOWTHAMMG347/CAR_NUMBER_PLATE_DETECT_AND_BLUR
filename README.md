@@ -1,10 +1,12 @@
-# Car Number Plate Detection using OpenCV
+# Car Number Plate Detection and Blur using OpenCV
 ## Overview
 This Python project implements a real-time car number plate detection system using OpenCV. It utilizes Harcascade classifiers for detecting license plates in live video streams captured through a webcam.
 
 ## Prerequisites
 Python 3.x
 OpenCV (cv2)
+Numpy
+Matplotlib
 Webcam (for live plate detection)
 ## Installation
 1. Clone the repository:
@@ -42,8 +44,7 @@ car-number-plate-detection/
 │
 ├── LICENSE                   # File specifying the project's license (e.g., MIT License)
 ├── README.md                 # Project README file
-├── easy_OCR.ipynb            # Jupyter Notebook for Optical Character Recognition (OCR)
-├── number_plate.py           # Python script for car number plate detection
+├── car_number_plate_detect_and_blur_model.py           # Python script for car number plate detection
 └── requirements.txt          # File listing project dependencies
 
 ```
@@ -51,7 +52,7 @@ car-number-plate-detection/
 
 The minimum area threshold for plate detection can be adjusted in the script (min_area variable).
 Experiment with different cascade models or tuning parameters for improved plate detection accuracy.
-Consider adding post-processing steps for character segmentation and optical character recognition (OCR) to extract text from detected plates.
+Consider adding post-processing steps for character segmentation and bluring detected plates.
 ## License
 This project is licensed under the MIT License.
 
