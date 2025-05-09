@@ -11,7 +11,7 @@ Webcam (for live plate detection)
 ## Installation
 1. Clone the repository:
 ```bash
-https://github.com/Bhoomika-gp/Car-Number-Plate-Detection.git
+https://github.com/GOWTHAMMG347/CAR_NUMBER_PLATE_DETECT_AND_BLUR.git
 
 ```
 2. Install the required libraries:
