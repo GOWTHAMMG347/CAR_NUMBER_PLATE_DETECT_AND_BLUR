@@ -17,6 +17,8 @@ https://github.com/GOWTHAMMG347/CAR_NUMBER_PLATE_DETECT_AND_BLUR.git
 2. Install the required libraries:
 ```bash
 pip install opencv-python
+pip install numpy
+pip install matplotlib
 ```
 
 3. Download the pre-trained Harcascade XML file (haarcascade_russian_plate_number.xml) and place it in the model directory.
